@@ -13,7 +13,9 @@ public class Main {
 
 //////////////////////////////////
 
-        JLabel l1=new JLabel("Login Page");
+        JLabel l1=new JLabel("Register Page");
+        JLabel l3=new JLabel("Login Page");
+
         JTextField username =new JTextField(" Enter Username");
         JTextField address =new JTextField(" Enter Username");
         JButton button=new JButton("Login");
@@ -37,25 +39,26 @@ public class Main {
 //////////left box //////
 
         l1.setBounds(100,15,100,30);
-        username.setBounds(40,50,200,40);
-        address.setBounds(40,100,200,40);
-        comboBox.setBounds(40,150,200,30);
-        box.setBounds(40,190,20,30);
+        username.setBounds(50,50,200,40);
+        address.setBounds(50,100,200,40);
+        comboBox.setBounds(50,150,200,30);
+        box.setBounds(50,190,20,30);
         l2.setBounds(80,190,100,30);
-        button.setBounds(75,230,100,30);
+        button.setBounds(100,250,100,30);
 
 //////////right box//////
+        l3.setBounds(425,15,100,30);
 
-        name.setBounds(340,50,200,40);
-        password.setBounds(340,120,200,40);
-        b.setBounds(390,200,100,30);
+        name.setBounds(350,50,200,40);
+        password.setBounds(350,120,200,40);
+        b.setBounds(400,200,100,30);
 
         ////////panel //////////
 
-        p1.setBounds(20,10,280,300);
+        p1.setBounds(20,10,270,300);
         p1.setBackground(myColor);
 
-        p2.setBounds(320,10,300,300);
+        p2.setBounds(320,10,270,300);
         p2.setBackground(my);
 
 /////////////////////////
@@ -69,7 +72,7 @@ public class Main {
         frame.add(comboBox);
         frame.add(p1);
 
-
+        frame.add(l3);
         frame.add(name);
         frame.add(password);
         frame.add(b);
